@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditTextActivity"
+        android:padding="10dp">
+    <EditText android:id="@+id/yonghuming" android:layout_width="match_parent" android:layout_height="100dp"
+              android:hint="用户名"
+              android:paddingLeft="30dp"
+              android:background="@drawable/bt_shape"
+    />
+    <EditText android:id="@+id/mima" android:layout_width="match_parent" android:layout_height="100dp"
+              android:layout_below="@+id/yonghuming" android:textColor="#ff0000"
+              android:inputType="textPassword"
+    android:hint="密码"
+    />
+
+</RelativeLayout>
